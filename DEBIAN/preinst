@@ -1,5 +1,11 @@
 #!/bin/bash
 echo "backing up the original icon..."
+mv /Applications/Cydia.app/icon-72.png /Applications/Cydia.app/icon-72.png.bak
+mv /Applications/Cydia.app/Icon-Small-50.png /Applications/Cydia.app/Icon-Small-50.png.bak
+mv /Applications/Cydia.app/Icon-Small.png /Applications/Cydia.app/Icon-Small.png.bak
+mv /Applications/Cydia.app/Icon-Small@2x.png /Applications/Cydia.app/Icon-Small@2x.png.bak
+mv /Applications/Cydia.app/icon.png /Applications/Cydia.app/icon.png.bak
 mv /Applications/Cydia.app/icon@2x.png /Applications/Cydia.app/icon@2x.png.bak
+mv /Applications/Cydia.app/iconClassic.png /Applications/Cydia.app/iconClassic.png.bak
 echo "backup done!"
 exit 0

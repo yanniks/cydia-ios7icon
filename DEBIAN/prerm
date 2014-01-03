@@ -1,0 +1,11 @@
+#!/bin/bash
+mv /Applications/Cydia.app/icon-72.png /Applications/Cydia.app/icon-72.png.new
+mv /Applications/Cydia.app/icon-72@2x.png /Applications/Cydia.app/icon-72@2x.png.new
+mv /Applications/Cydia.app/Icon-Small-50.png /Applications/Cydia.app/Icon-Small-50.png.new
+mv /Applications/Cydia.app/Icon-Small-50@2x.png /Applications/Cydia.app/Icon-Small-50@2x.png.new
+mv /Applications/Cydia.app/Icon-Small.png /Applications/Cydia.app/Icon-Small.png.new
+mv /Applications/Cydia.app/Icon-Small@2x.png /Applications/Cydia.app/Icon-Small@2x.png.new
+mv /Applications/Cydia.app/icon.png /Applications/Cydia.app/icon.png.new
+mv /Applications/Cydia.app/icon@2x.png /Applications/Cydia.app/icon@2x.png.new
+mv /Applications/Cydia.app/iconClassic.png /Applications/Cydia.app/iconClassic.png.new
+exit 0

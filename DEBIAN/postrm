@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "restoring original icon..."
+mv /Applications/Cydia.app/icon-72.png.bak /Applications/Cydia.app/icon-72.png
+mv /Applications/Cydia.app/Icon-Small-50.png.bak /Applications/Cydia.app/Icon-Small-50.png
+mv /Applications/Cydia.app/Icon-Small.png.bak /Applications/Cydia.app/Icon-Small.png
+mv /Applications/Cydia.app/Icon-Small@2x.png.bak /Applications/Cydia.app/Icon-Small@2x.png
+mv /Applications/Cydia.app/icon.png.bak /Applications/Cydia.app/icon.png
+mv /Applications/Cydia.app/icon@2x.png.bak /Applications/Cydia.app/icon@2x.png
+mv /Applications/Cydia.app/iconClassic.png.bak /Applications/Cydia.app/iconClassic.png
+echo "restore successful!"
