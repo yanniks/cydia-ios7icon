@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "backing up the original icon..."
+mv /Applications/Cydia.app/icon@2x.png /Applications/Cydia.app/icon@2x.png.bak
+echo "backup done!"
+exit 0

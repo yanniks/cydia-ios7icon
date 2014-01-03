@@ -1,0 +1,11 @@
+Package: de.yanniks.cydiaicon
+Name: iOS 7 Cydia icon
+Version: 1.0
+Architecture: iphoneos-arm
+Description: This package replaces the old Cydia icon with a new one in iOS 7 style.
+Homepage: http://yanniks.de
+Maintainer: Yannik Ehlert <kontakt@yanniks.de>
+Author: Yannik Ehlert <kontakt@yanniks.de>
+Section: Themes (System)
+Depends: cydia
+Depiction: http://blog.yanniks.de/cydia-repo/cydiaios7.html
